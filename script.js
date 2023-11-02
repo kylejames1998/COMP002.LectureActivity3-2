@@ -15,7 +15,7 @@ else if (myGrade < 60 && myGrade <50) {
     console.log("I got an F");
 }
 
-switch (myGrade) {
+switch (true) {
     case myGrade >= 90: console.log("A") 
                         break;
     case myGrade >= 80: console.log("B")
