@@ -1,4 +1,4 @@
-let myGrade = 67;
+let myGrade = 85;
 if (myGrade >= 90) {
     console.log("I got an A!");
 }
