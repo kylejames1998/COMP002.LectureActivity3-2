@@ -1,4 +1,4 @@
-let myGrade = 85;
+let myGrade = 50;
 if (myGrade >= 90) {
     console.log("I got an A!");
 }
@@ -19,4 +19,26 @@ switch (true) {
     case myGrade >= 90: console.log("A") 
                         break;
     case myGrade >= 80: console.log("B")
+                        break;
+    case myGrade >= 70: console.log("C")
+                        break;
+    case myGrade >= 60: console.log("D")
+                        break;
+    default: console.log("F");
+                        break;
 }
+
+// I prefer to use the switch as for me it is easier to understand and read.
+
+for (let i = 1; i <=100; i++) {
+    console.log(i);
+}
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 2 == 0) {
+        console.log(i);
+    } else {
+        console.log("!");
+    }
+}
+    
